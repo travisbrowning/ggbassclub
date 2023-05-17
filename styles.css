@@ -1,0 +1,13 @@
+* {
+    list-style: none;
+
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav {
+    background-color: #2C4C44;
+}
