@@ -54,6 +54,7 @@ a:hover {
     background-size: cover;
     background-position: center;
     height: 550px;
+
 }
 
 .headerimg {
@@ -62,6 +63,8 @@ a:hover {
     display: flex;
     justify-content: center;
 }
+
+
 
 .headertext {
     width: 50%;
@@ -76,6 +79,7 @@ a:hover {
     background-color: #a59c59df;
     border-radius: 10px;
     width: 75%;
+    max-width: 400px;
     padding: 25px;
     box-shadow: 10px 10px 15px black;
 
@@ -83,4 +87,59 @@ a:hover {
 
 .heading {
     margin-bottom: 15%;
+}
+
+#tournaments {
+    background-color: #9cdcd4;
+    text-align: center;
+    padding: 8%;
+}
+
+iframe {
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px black;
+    margin-bottom: 15px;
+
+}
+
+.tournamentheading {
+    padding: 2%;
+    font-size: 3em;
+}
+
+.tournamentinfo {
+    margin-bottom: 3%;
+    font-size: 2em;
+}
+
+#facebook {
+    background-color: #a59c59;
+    text-align: center;
+    padding: 8%;
+}
+
+#facebook h2 {
+    padding: 2%;
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+#facebook h3 {
+    font-size: 2em;
+}
+
+#contactus {
+    text-align: center;
+    padding: 8%;
+    background-color: #1eabad;
+}
+
+#contactus h2 {
+    padding: 2%;
+    font-size: 3em;
+}
+
+#contactus h3 {
+    font-size: 2em;
+    ;
 }
