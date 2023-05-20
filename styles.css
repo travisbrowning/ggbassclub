@@ -160,20 +160,26 @@ footer {
 @media screen and (max-width: 700px) {
     .header {
         flex-direction: column;
-        padding-top: 20%;
-
+        padding-top: 10%;
+        height: 750px;
 
     }
 
-    .headertext {
+    /* .headertext {
         visibility: hidden;
+    } */
+
+    .headertext {
+        width: 100%;
+        margin-top: 10%;
+
     }
 
     .headerimg {
         width: 100%;
         height: auto;
         display: flex;
-        margin-top: 15%;
+        /* margin-top: 15%; */
     }
 
     nav {
@@ -221,6 +227,10 @@ footer {
     footer {
         font-size: 15px;
 
+    }
+
+    .header {
+        height: 800px;
     }
 
     iframe {
