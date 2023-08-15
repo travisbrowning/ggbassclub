@@ -16,11 +16,9 @@ nav {
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  /* top: 0; */
 }
 
 body {
-  /* padding-top: 7vh; */
   display: flex;
   flex-direction: column;
 }
@@ -78,90 +76,90 @@ a:hover {
   width: 75%;
   max-width: 400px;
   padding: 25px;
-  box-shadow: 10px 10px 15px black;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.9);
 }
 
 .heading {
   margin-bottom: 15%;
 }
 
-#tournaments {
-  background-color: #9cdcd4;
-  text-align: center;
-  padding: 8%;
-}
-
 #meetings {
   background-color: #f3e6a5;
   text-align: center;
-  padding: 8%;
+  padding: 6%;
 }
 
 #meetings h2 {
   font-size: 3em;
+  padding: 1%;
 }
 
 #meetings p {
   font-size: 2em;
-  padding: 2%;
+  padding: 1%;
 }
 
 #meetings img {
-  margin: 3%;
   width: 75%;
+  max-width: 600px;
   height: auto;
   border-radius: 20px;
-  box-shadow: 15px 15px 15px black;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.9);
+  margin: 15px auto;
+}
+
+#tournaments {
+  background-color: #9cdcd4;
+  text-align: center;
+  padding: 6%;
+}
+
+#tournaments h2 {
+  padding: 1%;
+  font-size: 3em;
+}
+
+#tournaments p {
+  font-size: 2em;
+  padding: 1%;
 }
 
 iframe {
   border-radius: 20px;
-  box-shadow: 15px 15px 15px black;
-  margin-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.tournamentheading {
-  padding: 2%;
-  font-size: 3em;
-}
-
-.tournamentinfo {
-  margin-bottom: 5%;
-  font-size: 2em;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.9);
+  margin: 15px auto;
 }
 
 #facebook {
   background-color: #a59c59;
   text-align: center;
-  padding: 8%;
+  padding: 6%;
 }
 
 #facebook h2 {
-  padding: 2%;
+  padding: 1%;
   font-size: 3em;
-  margin-bottom: 10px;
 }
 
-#facebook h3 {
+#facebook p {
   font-size: 2em;
+  padding: 1%;
 }
 
 #contactus {
   text-align: center;
-  padding: 8%;
+  padding: 6%;
   background-color: #1eabad;
 }
 
 #contactus h2 {
-  padding: 2%;
+  padding: 1%;
   font-size: 3em;
 }
 
-#contactus h3 {
+#contactus p {
   font-size: 2em;
-  margin-bottom: 15px;
+  padding: 1%;
 }
 
 footer {
@@ -202,28 +200,36 @@ footer {
     height: 300px;
   }
 
+  #meetings h2 {
+    font-size: 2em;
+  }
+
+  #meetings p {
+    font-size: 1.5em;
+  }
+
   #tournaments h2 {
     font-size: 2em;
   }
 
-  #tournaments h3 {
-    font-size: 1em;
+  #tournaments p {
+    font-size: 1.5em;
   }
 
   #facebook h2 {
     font-size: 2em;
   }
 
-  #facebook h3 {
-    font-size: 1em;
+  #facebook p {
+    font-size: 1.5em;
   }
 
   #contactus h2 {
     font-size: 2em;
   }
 
-  #contactus h3 {
-    font-size: 1em;
+  #contactus p {
+    font-size: 1.5em;
   }
 
   #contactus img,
@@ -246,6 +252,14 @@ footer {
     height: 250px;
     margin-right: 8px;
     margin-bottom: 10px;
+  }
+
+  #meetings p {
+    font-size: 1em;
+  }
+
+  #tournaments p {
+    font-size: 1em;
   }
 }
 

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="Stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
     <title>GG Bass Club</title>
   </head>
 
@@ -46,9 +47,9 @@
     </section>
     <section id="tournaments">
       <h2 class="tournamentheading">Tournaments</h2>
-      <h3 class="tournamentinfo">
-        August 26th East River, Navarre Fl, Hwy 87 Bridge
-      </h3>
+      <p><b>When:</b> <span id="when"></span></p>
+      <p><b>Where:</b> <span id="where"></span></p>
+      <p><b>Launch:</b> <span id="launch"></span></p>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.8140193488725!2d-86.87156041336425!3d30.4413737095593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889120fed713c081%3A0x653b94d02af0c6ee!2sEast%20River%20Boat%20Ramp!5e0!3m2!1sen!2sus!4v1691968821418!5m2!1sen!2sus"
         width="600"
@@ -61,14 +62,14 @@
     </section>
     <section id="facebook">
       <h2>Connect with us on FaceBook!</h2>
-      <h3>Photos, Info, Friends</h3>
+      <p>Photos, Info, Friends</p>
       <a href="https://www.facebook.com/ggbassclub"
-        ><img src="images/facebook.png" alt="FaceBook logo"
+        ><img id="fbbtn" src="images/facebook.png" alt="FaceBook logo"
       /></a>
     </section>
     <section id="contactus">
       <h2>Interested?</h2>
-      <h3>Shoot us an email!</h3>
+      <p>Shoot us an email!</p>
       <a href="mailto:TSTathome@icloud.com"><img src="images/email.png" /></a>
     </section>
     <footer>
@@ -83,6 +84,5 @@
         /></a>
       </p>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>
