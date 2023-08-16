@@ -89,16 +89,6 @@ a:hover {
   padding: 6%;
 }
 
-#meetings h2 {
-  font-size: 3em;
-  padding: 1%;
-}
-
-#meetings p {
-  font-size: 2em;
-  padding: 1%;
-}
-
 #meetings img {
   width: 75%;
   max-width: 600px;
@@ -114,16 +104,6 @@ a:hover {
   padding: 6%;
 }
 
-#tournaments h2 {
-  padding: 1%;
-  font-size: 3em;
-}
-
-#tournaments p {
-  font-size: 2em;
-  padding: 1%;
-}
-
 iframe {
   border-radius: 20px;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.9);
@@ -136,28 +116,18 @@ iframe {
   padding: 6%;
 }
 
-#facebook h2 {
-  padding: 1%;
-  font-size: 3em;
-}
-
-#facebook p {
-  font-size: 2em;
-  padding: 1%;
-}
-
 #contactus {
   text-align: center;
   padding: 6%;
   background-color: #1eabad;
 }
 
-#contactus h2 {
-  padding: 1%;
+.content h2 {
   font-size: 3em;
+  padding: 1%;
 }
 
-#contactus p {
+.content p {
   font-size: 2em;
   padding: 1%;
 }
@@ -174,10 +144,6 @@ footer {
     padding-top: 10%;
     height: 750px;
   }
-
-  /* .headertext {
-        visibility: hidden;
-    } */
 
   .headertext {
     width: 100%;
@@ -200,35 +166,11 @@ footer {
     height: 300px;
   }
 
-  #meetings h2 {
+  .content h2 {
     font-size: 2em;
   }
 
-  #meetings p {
-    font-size: 1.5em;
-  }
-
-  #tournaments h2 {
-    font-size: 2em;
-  }
-
-  #tournaments p {
-    font-size: 1.5em;
-  }
-
-  #facebook h2 {
-    font-size: 2em;
-  }
-
-  #facebook p {
-    font-size: 1.5em;
-  }
-
-  #contactus h2 {
-    font-size: 2em;
-  }
-
-  #contactus p {
+  .content p {
     font-size: 1.5em;
   }
 
