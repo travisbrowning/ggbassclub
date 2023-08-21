@@ -110,6 +110,17 @@ iframe {
   margin: 15px auto;
 }
 
+#resultslink {
+  display: block;
+  color: rgb(15, 15, 15);
+  font-size: 2.5em;
+  padding: 5%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: underline;
+}
+
 #facebook {
   background-color: #a59c59;
   text-align: center;
@@ -166,6 +177,10 @@ footer {
     height: 300px;
   }
 
+  #resultslink {
+    font-size: 1.5em;
+  }
+
   .content h2 {
     font-size: 2em;
   }
@@ -201,6 +216,9 @@ footer {
   }
 
   #tournaments p {
+    font-size: 1em;
+  }
+  #resultslink {
     font-size: 1em;
   }
 }
