@@ -23,20 +23,17 @@ body {
 
 table {
   width: 100%;
-  /* margin: 10% auto auto auto; */
   text-align: center;
-  padding-bottom: 3%;
-  padding-left: 0.5%;
-  padding-right: 0.5%;
+  padding: 1%;
 }
 
 #mainhead {
   padding: 2%;
-  font-size: 1.8em;
+  font-size: 30px;
 }
 
 th {
-  font-size: 1.2em;
+  font-size: 15px;
 }
 
 .month {
@@ -49,7 +46,7 @@ th {
   border-radius: 10px;
   margin: 5% auto 5% auto;
   min-width: fit-content;
-  max-width: 70%;
+  width: 75%;
 }
 
 .bfhead {
