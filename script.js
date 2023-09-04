@@ -4,6 +4,6 @@ let launch = document.querySelector("#launch");
 
 // Tournament Updates:
 
-when.textContent = "August 26th";
-where.textContent = "East River, Navarre";
-launch.textContent = "Hwy 87 Bridge";
+when.textContent = "November 11th & 12th";
+where.textContent = "Lake Seminole";
+launch.textContent = "Big Jim's/Reynolds Landing";
