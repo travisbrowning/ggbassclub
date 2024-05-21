@@ -4,6 +4,6 @@ let launch = document.querySelector("#launch");
 
 // Tournament Updates:
 
-when.textContent = "May 11th";
-where.textContent = "Frank Jackson";
-launch.textContent = "";
+when.textContent = "May 25th";
+where.textContent = "Deer Point Lake";
+launch.textContent = "High Point Landing";
