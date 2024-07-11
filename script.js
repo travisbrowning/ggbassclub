@@ -4,6 +4,6 @@ let launch = document.querySelector("#launch");
 
 // Tournament Updates:
 
-when.textContent = "June 22nd";
-where.textContent = "East River, Navarre FL";
-launch.textContent = "Hwy 87 Bridge";
+when.textContent = "July 27th";
+where.textContent = "Black Creek Lodge, Freeport";
+launch.textContent = "Black Creek Lodge";
